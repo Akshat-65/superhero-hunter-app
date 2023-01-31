@@ -60,6 +60,9 @@ const deleteFavourite = (id,container)=>{
             break;
         }
     }
+    if (favArr.length === 0) {
+        favouriteWrapper.innerHTML = '<span class = "no-fav">No Favourites Added</span>';
+    }
 }
 
 // function to show details of superhero when clicked
