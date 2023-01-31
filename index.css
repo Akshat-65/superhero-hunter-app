@@ -132,3 +132,9 @@
     color: rgb(196, 191, 191);
 }
 
+@media screen and (max-width:630px){
+    #search-bar{
+        font-size: 0.5rem;
+    }
+}
+
